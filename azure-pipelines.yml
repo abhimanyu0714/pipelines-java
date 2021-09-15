@@ -6,11 +6,9 @@
 trigger:
 - master
 
-stages:
- - stage: build
+
 
 jobs:
-
 - job: A
   steps:
   - bash: echo "A"
