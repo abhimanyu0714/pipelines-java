@@ -10,6 +10,7 @@ stages:
  - stage: build
 
 jobs:
+
 - job: A
   steps:
   - bash: echo "A"
@@ -17,7 +18,7 @@ jobs:
 - job: B
   steps:
   - bash: echo "B"
- - 
+ 
 
   
 
